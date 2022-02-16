@@ -5,7 +5,7 @@
 ```bash
 docker-compose up
 ```
-## Download the test db data from here [add the link once complete...]
+## Download the test db data from [here](https://www.dropbox.com/s/fnfvv293mb6y8wk/passports.json?dl=0)
 
 ## Set up Mappings:
 
