@@ -5,9 +5,10 @@
 ```bash
 docker-compose up
 ```
+
 ## Download the test db data from [here](https://www.dropbox.com/s/fnfvv293mb6y8wk/passports.json?dl=0)
 
-## Set up Mappings:
+## Set up Mappings
 
 Using your favourite REST client, `PUT` the following to  http://localhost:9200/disco
 
@@ -40,6 +41,10 @@ Using your favourite REST client, `PUT` the following to  http://localhost:9200/
 }
 ```
 
+## Using the OpenSearch Dashboard
+
+Should be available [here](http://localhost:5601/app/dev_tools#/console)
+
 ## install
 
 (this needs node 14 or better!)
@@ -50,6 +55,6 @@ yarn install
 
 ## Run the backfil script
 
-```
+```bash
 node backfill.js
 ```
