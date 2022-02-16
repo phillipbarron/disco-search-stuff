@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "properties": {
+      "passportData": {
+        "properties": {
+          "locator": { "type": "keyword" },
+          "dateFirstReleased": { "type": "date" },
+          "taggings": {
+            "type": "nested",
+            "properties": {
+              "predicate": { "type": "keyword" },
+              "value": { "type": "keyword" },
+              "score": { "type": "float" }
+            }
+          },
+          "passportMetadata": {
+            "properties": {
+              "createdTimestamp": { "type": "date" },
+              "lastUpatedTimestamp": { "type": "date" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

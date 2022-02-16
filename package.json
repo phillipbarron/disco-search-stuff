@@ -1,0 +1,10 @@
+{
+  "name": "es-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.16.0",
+    "@opensearch-project/opensearch": "^1.0.2"
+  }
+}
