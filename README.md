@@ -1,4 +1,4 @@
-# Discovery Opensearch Spike Dev Testing Scripts
+# Discovery Opensearch spike. Dev-testing scripts
 
 ## Run the docker scripts with
 
