@@ -58,3 +58,8 @@ yarn install
 ```bash
 node backfill.js
 ```
+
+## todo
+
+1. set the `_id` in the document to the Passport Locator to ensure we can have at most 1 document per passport in the index
+1. script the set-up to delete & recreate the index (from the node scripts perhaps)
