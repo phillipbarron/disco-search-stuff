@@ -9,7 +9,7 @@ docker-compose up
 
 ## Set up Mappings:
 
-Using your favourite test client, `PUT` the following to  http://localhost:9200/disco
+Using your favourite REST client, `PUT` the following to  http://localhost:9200/disco
 
 ```json
 {
@@ -41,6 +41,8 @@ Using your favourite test client, `PUT` the following to  http://localhost:9200/
 ```
 
 ## install
+
+(this needs node 14 or better!)
 
 ```bash
 yarn install
