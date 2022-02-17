@@ -61,6 +61,6 @@ node backfill.js
 
 ## todo
 
-1. set the `_id` in the document to the Passport Locator to ensure we can have at most 1 document per passport in the index
-1. script the set-up to delete & recreate the index (from the node scripts perhaps)
+1. Set the `_id` in the document to the passport Locator to ensure we can have at most one document per passport in the index
+1. Script the set-up to delete & recreate the index (from the node scripts perhaps)
 1. Add a bunch of example queries covering known use-cases
